@@ -3,9 +3,9 @@
 /**
  * Module dependencies.
  */
-
+const { name = 'backend' } = require('../package.json');
 const app = require('../app');
-const debug = require('debug')('hackku-2021-backend:server');
+const debug = require('debug')(name);
 const http = require('http');
 
 /**
