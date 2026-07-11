@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "eslint": "^8.20.0",
+    "eslint": "^10.7.0",
     "nodemon": "^2.0.19",
     "pug": "^3.0.2"
   }
